@@ -1,0 +1,1 @@
+/usr/lib64/ccache/c++ -rdynamic CMakeFiles/LRsystem.dir/src/main.cpp.o -o LRsystem  -Wl,-rpath,/home/Krajewski/Documents/CPP-Projects/LRsystem/build libmenu.so 

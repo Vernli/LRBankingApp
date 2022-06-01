@@ -1,0 +1,4 @@
+/home/Krajewski/Documents/CPP-Projects/LRsystem/build/CMakeFiles/menu.dir
+/home/Krajewski/Documents/CPP-Projects/LRsystem/build/CMakeFiles/LRsystem.dir
+/home/Krajewski/Documents/CPP-Projects/LRsystem/build/CMakeFiles/edit_cache.dir
+/home/Krajewski/Documents/CPP-Projects/LRsystem/build/CMakeFiles/rebuild_cache.dir
