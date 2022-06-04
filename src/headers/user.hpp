@@ -1,17 +1,13 @@
-#include <string>
-#include <vector>
+#include "headers/person.hpp"
 
-// User - Klasa definiujaca "kim jest uzytkownik"
-// Odbior danych z Menu i umieszczenie ich w User, Odebranie danych z bazy danych i umieszczenie ich w User
-
-class User {  
+class User : Person {
     public:
-        User();
+        User(std::string uLogin, std::string uPassword);
+        User(User const& other);
+        ~User() = default;
     private:
+        std::string e_mail;
         std::string login;
         std::string password;
-        std::string name;
-        std::string last_name;
-        std::string e_mail;
         int balance;
 };

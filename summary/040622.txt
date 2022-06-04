@@ -1,0 +1,17 @@
+--- 04 06 2022 ---
+
+Utworzenie klas User,Person interfejsu IMenu
+Utworzenie funkcji do obslugi/modyfikacji terminalu
+Stworzenie poczatkowego blueprinta wykonywanych operacji w pliku main.cpp
+
+--- Plan ---
+
+Utworzenie wszystkich mozliwych Menu
+Odbior INPUT od uzytkownika
+Sprawdzenie poprawnosci INPUT 
+- Haslo bez spacji
+- Login bez znakow specjalnych i bez spacji
+- E-mail bez znakow specjalych z dozwolonymi: @_-.
+- Reszta danych bez znakow specjalnych
+Jezeli dane sa niepoprawne wyswietlenie komunikatu zresetowanie okna 3 - proby potem wyjscie do Menu
+Wprowadzenie poprawnych danych do typu User

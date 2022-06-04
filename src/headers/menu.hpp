@@ -1,10 +1,10 @@
-
 #include <vector>
 #include <string>
 #include <iostream>
 #include <stdexcept>
 
-class Menu {
+
+class Menu{
     public:
         Menu(size_t size);
         Menu(size_t size, std::vector<std::string> v_options);
