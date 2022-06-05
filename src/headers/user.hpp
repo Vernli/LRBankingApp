@@ -1,11 +1,11 @@
-#include "headers/person.hpp"
+#include <string>
 
-class User : Person {
+class User {
     public:
+        User() = default;
         User(std::string uLogin, std::string uPassword);
         User(User const& other);
         ~User() = default;
-    private:
         std::string e_mail;
         std::string login;
         std::string password;

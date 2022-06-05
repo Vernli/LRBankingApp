@@ -16,7 +16,7 @@ void Console::RedColor(std::string message){
         printf("\033[1;31m%s\033[0m\n", message.c_str());
 }
 
-void Console::ClearTerminal()
+void Console::Clear()
 {
         system("clear");
 }
@@ -24,6 +24,11 @@ void Console::ClearTerminal()
 void Console::PressAnyKey()
 {
         system ("read");
+}
+
+void Console::Exit()
+{
+        system("exit");
 }
 
 #elif __WIN32
@@ -50,7 +55,7 @@ void Console::RedColor(std::string message){
         SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 0x07);
 }
 
-void Console::ClearTerminal()
+void Console::Clear()
 {
         system("cls");
 }
@@ -58,5 +63,10 @@ void Console::ClearTerminal()
 void Console::PressAnyKey()
 {
         system ("pause");
+}
+
+void Console::Exit()
+{
+        system("exit");
 }
 #endif
