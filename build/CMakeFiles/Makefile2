@@ -83,12 +83,12 @@ clean: CMakeFiles/LRsystem.dir/clean
 CMakeFiles/menu.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/Krajewski/Documents/CPP-Projects/LRsystem/build/CMakeFiles --progress-num=3,4 "Built target menu"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/Krajewski/Documents/CPP-Projects/LRsystem/build/CMakeFiles --progress-num=3,4,5,6 "Built target menu"
 .PHONY : CMakeFiles/menu.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/menu.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/Krajewski/Documents/CPP-Projects/LRsystem/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/Krajewski/Documents/CPP-Projects/LRsystem/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/menu.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/Krajewski/Documents/CPP-Projects/LRsystem/build/CMakeFiles 0
 .PHONY : CMakeFiles/menu.dir/rule
@@ -114,7 +114,7 @@ CMakeFiles/LRsystem.dir/all: CMakeFiles/menu.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/LRsystem.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/Krajewski/Documents/CPP-Projects/LRsystem/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/Krajewski/Documents/CPP-Projects/LRsystem/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/LRsystem.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/Krajewski/Documents/CPP-Projects/LRsystem/build/CMakeFiles 0
 .PHONY : CMakeFiles/LRsystem.dir/rule

@@ -1,1 +1,1 @@
-/usr/lib64/ccache/c++ -fPIC -shared -Wl,-soname,libmenu.so -o libmenu.so CMakeFiles/menu.dir/src/menu.cpp.o 
+/usr/lib64/ccache/c++ -fPIC -shared -Wl,-soname,libmenu.so -o libmenu.so CMakeFiles/menu.dir/src/menu.cpp.o CMakeFiles/menu.dir/src/terminal.cpp.o CMakeFiles/menu.dir/src/user.cpp.o 

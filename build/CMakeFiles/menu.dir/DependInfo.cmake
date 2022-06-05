@@ -9,6 +9,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/Krajewski/Documents/CPP-Projects/LRsystem/src/menu.cpp" "CMakeFiles/menu.dir/src/menu.cpp.o" "gcc" "CMakeFiles/menu.dir/src/menu.cpp.o.d"
+  "/home/Krajewski/Documents/CPP-Projects/LRsystem/src/terminal.cpp" "CMakeFiles/menu.dir/src/terminal.cpp.o" "gcc" "CMakeFiles/menu.dir/src/terminal.cpp.o.d"
+  "/home/Krajewski/Documents/CPP-Projects/LRsystem/src/user.cpp" "CMakeFiles/menu.dir/src/user.cpp.o" "gcc" "CMakeFiles/menu.dir/src/user.cpp.o.d"
   )
 
 # Targets to which this target links.
