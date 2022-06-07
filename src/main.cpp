@@ -13,8 +13,9 @@ int main() {
     Menu* loginMenu = new Menu (2, {"Login:", "Password:"});
     Menu* registerMenu = new Menu (6, {"Name:", "Last name:", "Age:", "E-mail:", "Login:", "Password:", "Repeat password:"});
     //#####################################################################
-    int input;
 
+    //////////     -----------  MAIN MENU   -----------     ////////////
+    int input;
     bool switchDone = false;
     do
     {
@@ -42,7 +43,8 @@ int main() {
         }
     } while (!switchDone);
 
-    // Change soon
+
+    //////////     -----------  LOGIN / REGISTER SECTION   -----------     ////////////
     User *current = new User;   // nieczytelna nazwa zmiennej
 
     // moze zmiana na ctor usera
