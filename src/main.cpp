@@ -43,23 +43,48 @@ int main() {
     } while (!switchDone);
 
     // Change soon
-    User current; 
+    User *current = new User;   // nieczytelna nazwa zmiennej
+
+    // moze zmiana na ctor usera
     switch (input)
     {
     case 1:
-        Console::SetCursorPosition(6, 1);   // nie wykonuje sie
-        getline(cin, current.login);
-        Console::SetCursorPosition(9, 2);
-        getline(cin, current.password);
+        Console::SetCursorPosition(6, 1);   // Login: _ - NIE WYKONUJE SIE
+        getline(cin, current->login);
+        Console::SetCursorPosition(9, 2);   // Password: _ 
+        getline(cin, current->password);
         break;
     case 2:
         // set cursor
-        Console::SetCursorPosition(5,1);
-        Console::SetCursorPosition(10,2);
-        Console::SetCursorPosition(4,3);
-        Console::SetCursorPosition(7,4);
-        Console::SetCursorPosition(6,5);
-        Console::SetCursorPosition(9,6);
+        std::string usr_input;
+        Console::SetCursorPosition(5,1);    // Name: _
+        getline(cin, usr_input);
+        current->setName(usr_input);
+
+        Console::SetCursorPosition(10,2);   // Last name: _
+        getline(cin, usr_input);
+        current->setName(usr_input);
+
+        Console::SetCursorPosition(4,3);    // Age: _
+        getline(cin,usr_input);
+        current->setName(usr_input);
+
+        Console::SetCursorPosition(7,4);    // E-mail: _
+        getline(cin, current->e_mail);
+
+        Console::SetCursorPosition(6,5);    // Login: _
+        getline(cin, current->login);
+
+        std::string temp_password;
+        Console::SetCursorPosition(9,6);    // Password:_
+        getline(cin, usr_input);
+        Console::SetCursorPosition(16,7);
+        getline(cin, temp_password);
+
+        if (temp_password.compare(usr_input) == 0) {
+            current->password = usr_input;
+        }
+
         break;
     }
 }

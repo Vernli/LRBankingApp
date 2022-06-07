@@ -1,9 +1,6 @@
 #include <string>
 
-class Person {  
-    public:
-        Person();
-    protected:
+struct Person {  
         std::string name;
         std::string last_name;
         int age;
